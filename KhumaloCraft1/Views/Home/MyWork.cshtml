@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewData["Title"] = "My Work";
+}
+
+<style>
+    body {
+        font-family: 'Courier New', sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: palegoldenrod;
+    }
+/* Style for the row containing the columns */
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Style for each column */
+.col-md-4 {
+    flex: 0 0 calc(33.333% - 20px); /* Adjust the width as needed */
+    margin: 0 10px;
+    text-align: center;
+}
+
+/* Style for the images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the headings */
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+h1 {
+        color: black;
+        margin-top: 20px;
+        text-align: center;
+}
+    
+
+/* Style for the descriptions */
+p {
+    margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 1.6em;
+}
+
+/* Style for the prices */
+p.price {
+    font-weight: bold;
+}
+
+</style>
+
+<body>
+
+<h1>My Work</h1>
+<p1>This page will introduce my work and products.</p1>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/css/image 7.jpeg" alt="Wooden Bench">
+        <h3>Craft 1</h3>
+        <p>Wooden Bench</p>
+        <p>Price: R700</p>
+    </div>
+    <div class="col-md-4">
+        <img src="~/css/image 5.jpg" alt="Pottery">
+        <h3>Craft 2</h3>
+        <p>Pottery</p>
+        <p>Price: R500</p>
+    </div>
+    <div class="col-md-4">
+        <img src="~/css/image 6.jpg" alt="Fabrics">
+        <h3>Craft 3</h3>
+        <p>Fabrics</p>
+        <p>Price: R200</p>
+    </div>
+</div>
+    
+</body>
